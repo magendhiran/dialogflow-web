@@ -4,8 +4,8 @@
   "version": "1.7.0",
   "author": "Ushakov",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open",
+    "build": "cross-env NODE_ENV=production webpack --progress"
   },
   "dependencies": {
     "api-ai-javascript": "^2.0.0-beta.21",
@@ -26,5 +26,15 @@
     "vue-template-compiler": "^2.2.1",
     "webpack": "^3.8.1",
     "webpack-dev-server": "^2.2.0"
-  }
+  },
+  "main": "config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magendhiran/dialogflow-web.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magendhiran/dialogflow-web/issues"
+  },
+  "homepage": "https://github.com/magendhiran/dialogflow-web#readme"
 }
